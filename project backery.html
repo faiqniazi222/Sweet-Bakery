@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Bakery</title>
+    <link rel="stylesheet" href="project backery.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="project backery.css">
+</head>
+<body>
+
+    <div class="top-bar">
+        <div class="scrolling-text">
+            <span>🎂 Fresh Cakes Available Today | 🍩 20% OFF on Donuts | 🚚 Free Delivery in City | 🎂 Fresh Cakes Available Today | 🍩 20% OFF on Donuts</span>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg custom-navbar sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="img/sweet backery logo.png" alt="Logo" width="40" class="me-2"> 
+                <span class="brand-text">Sweet Bakery</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bakeryNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="bakeryNav">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+                <form class="d-flex search-form">
+                    <input class="form-control me-2" type="search" placeholder="Search bakery items...">
+                    <button class="btn btn-maroon" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/baner.png" class="d-block banner-img" alt="Banner 1">
+            </div>
+            <div class="carousel-item">
+                <img src="img/baner2.png" class="d-block banner-img" alt="Banner 2">
+            </div>
+            <div class="carousel-item">
+                <img src="img/baner3.png" class="d-block banner-img" alt="Banner 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+<!-- Products -->
+
+    <section class="container my-5">
+        <h2 class="text-center mb-4" style="color: hsl(344, 82%, 21%); font-weight: bold;">Our Special Products</h2>
+        
+        <div class="row g-4 mb-5">
+            <div class="col-md-4 col-sm-6">
+                <div class="card product-card">
+                    <img src="img/cake1.jfif" class="card-img-top" alt="Flowers Wedding Cake">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Flowers Wedding Cake</h5>
+                        <p class="card-text">Rs. 1500</p>
+                        <a href="#" class="btn btn-maroon">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="card product-card">
+                    <img src="img/cake2.jfif" class="card-img-top" alt="Chocolate Cake">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Chocolate Cake</h5>
+                        <p class="card-text">Rs. 1200</p>
+                        <a href="#" class="btn btn-maroon">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="card product-card">
+                    <img src="img/cake3.jfif" class="card-img-top" alt="Triple Chocolate">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Gourmet Triple Chocolate</h5>
+                        <p class="card-text">Rs. 2000</p>
+                        <a href="#" class="btn btn-maroon">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="card product-card">
+                    <img src="img/cake2.jfif" class="card-img-top" alt="Chocolate Fudge">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Chocolate Fudge Cake</h5>
+                        <p class="card-text">Rs. 1500</p>
+                        <a href="#" class="btn btn-maroon">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="card product-card">
+                    <img src="img/cake4.jfif" class="card-img-top" alt="Red Velvet">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Red Velvet Cake</h5>
+                        <p class="card-text">Rs. 1800</p>
+                        <a href="#" class="btn btn-maroon">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="card product-card">
+                    <img src="img/cake5.jfif" class="card-img-top" alt="Vanilla Classic">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Vanilla Classic</h5>
+                        <p class="card-text">Rs. 1200</p>
+                        <a href="#" class="btn btn-maroon">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr class="my-5">
+
+        <div class="product-page-wrapper py-5">
+            <div class="container bg-white border rounded shadow-sm p-0">
+                <div class="row align-items-center g-0">
+                    <div class="col-md-6 col-lg-5 text-center p-4">
+                        <div id="productCarousel" class="carousel slide" data-bs-ride="false">
+                            <div class="carousel-inner rounded shadow-sm">
+                                <div class="carousel-item active">
+                                    <img src="img/cake6.jpeg" class="d-block w-100" alt="Front View">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/cake7.jpg" class="d-block w-100" alt="Side View">
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center mt-3 gap-2">
+                                <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="0" class="btn p-0 active border">
+                                    <img src="img/cake6.jpeg" width="60" height="60" style="object-fit: cover;">
+                                </button>
+                                <button type="button" data-bs-target="#productCarousel" data-bs-slide-to="1" class="btn p-0 border">
+                                    <img src="img/cake7.jpg" width="60" height="60" style="object-fit: cover;">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-7 px-5 py-3">
+                        <h1 class="product-title font-weight-bold text-maroon mb-2">Premium Wedding Cake</h1>
+                        <p class="product-price text-danger h4 mb-4">Rs. 3500</p>
+                        
+                        <div class="quantity-control-wrapper d-flex align-items-center mb-4">
+                            <button class="btn btn-outline-maroon quantity-btn px-3" onclick="changeQty('productQuantity', 1)">+</button>
+                            <input type="text" class="form-control quantity-input" value="1" id="productQuantity" readonly>
+                            <button class="btn btn-outline-maroon quantity-btn px-3" onclick="changeQty('productQuantity', -1)">-</button>
+                        </div>
+                        
+                        <div class="product-actions d-flex gap-3">
+                            <button class="btn btn-maroon flex-grow-1 py-2">Order Now</button>
+                            <button class="btn btn-outline-maroon flex-grow-1 py-2">Add to Cart 🛒</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="row g-4 mt-2">
+    <div class="col-md-4 col-sm-6">
+        <div class="card product-card">
+            <img src="img/cake9.jfif" class="card-img-top" alt="Strawberry Cake">
+            <div class="card-body text-center">
+                <h5 class="card-title">Strawberry Delight</h5>
+                <p class="card-text">Rs. 1600</p>
+                <a href="#" class="btn btn-maroon order-btn">Order Now</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6">
+        <div class="card product-card">
+            <img src="img/cake10.jfif" class="card-img-top" alt="Donuts">
+            <div class="card-body text-center">
+                <h5 class="card-title">Chocolate Donuts (Pack of 6)</h5>
+                <p class="card-text">Rs. 950</p>
+                <a href="#" class="btn btn-maroon order-btn">Order Now</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6">
+        <div class="card product-card">
+            <img src="img/cake11.webp" class="card-img-top" alt="Blueberry Cake">
+            <div class="card-body text-center">
+                <h5 class="card-title">Blueberry Fresh Muffin</h5>
+                <p class="card-text">Rs. 350</p>
+                <a href="#" class="btn btn-maroon order-btn">Order Now</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6">
+        <div class="card product-card">
+            <img src="img/cake12.jfif" class="card-img-top" alt="Lotus Cake">
+            <div class="card-body text-center">
+                <h5 class="card-title">Lotus Biscoff Special</h5>
+                <p class="card-text">Rs. 2500</p>
+                <a href="#" class="btn btn-maroon order-btn">Order Now</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6">
+        <div class="card product-card">
+            <img src="img/cake13.jfif" class="card-img-top" alt="Cupcakes">
+            <div class="card-body text-center">
+                <h5 class="card-title">Rainbow Cupcakes</h5>
+                <p class="card-text">Rs. 800</p>
+                <a href="#" class="btn btn-maroon order-btn">Order Now</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 col-sm-6">
+        <div class="card product-card">
+            <img src="img/cake14.jfif" class="card-img-top" alt="Pineapple Cake">
+            <div class="card-body text-center">
+                <h5 class="card-title">Pineapple Classic Cake</h5>
+                <p class="card-text">Rs. 1300</p>
+                <a href="#" class="btn btn-maroon order-btn">Order Now</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </section>
+    <!-- FOOTER -->
+
+    <footer class="bakery-footer">
+    <div class="container py-5">
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="footer-brand mb-3">
+                    <img src="img/sweet backery logo.png" alt="Logo" width="50" class="me-2">
+                    <span class="footer-logo-text">Sweet Bakery</span>
+                </div>
+                <p class="footer-about">
+                    Crafting sweetness since 2026. We take pride in baking the freshest cakes, donuts, and pastries in Faisalabad using premium ingredients.
+                </p>
+                <div class="social-icons d-flex gap-3 mt-4">
+                    <a href="https://www.facebook.com/shoplix.offical" target="_blank" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/marketing_agency_018?igsh=NHFoMWg3ZWJncWd4" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/923297225744" target="_blank" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="col-lg-2 col-md-6 col-6">
+                <h5 class="footer-heading">Explore</h5>
+                <ul class="footer-links list-unstyled">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="javascript:void(0)" onclick="openContactBox()">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-2 col-md-6 col-6">
+                <h5 class="footer-heading">Categories</h5>
+                <ul class="footer-links list-unstyled">
+                    <li><a href="#">Wedding Cakes</a></li>
+                    <li><a href="#">Birthday Cakes</a></li>
+                    <li><a href="#">Gourmet Donuts</a></li>
+                    <li><a href="#">Pastries</a></li>
+                </ul>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <h5 class="footer-heading">Get In Touch</h5>
+                <ul class="list-unstyled contact-info">
+                    <li class="d-flex align-items-center mb-3">
+                        <span class="icon-box me-3"><i class="fas fa-map-marker-alt"></i></span>
+                        <span>Small D-Ground, Faisalabad, Pakistan</span>
+                    </li>
+                    <li class="d-flex align-items-center mb-3">
+                        <span class="icon-box me-3"><i class="fas fa-phone-alt"></i></span>
+                        <span>+92 329-7225744</span>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <span class="icon-box me-3"><i class="fas fa-envelope"></i></span>
+                        <span>sweetbackery@gmail.com</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom py-3">
+        <div class="container text-center">
+            <p class="mb-0 copyright-text">© 2026 <strong>Sweet Bakery</strong>. Handcrafted with Passion.</p>
+        </div>
+    </div>
+</footer>
+
+<div id="contactModal" class="contact-modal" style="display: none;">
+    <div class="contact-modal-content">
+        <span class="close-btn" onclick="closeContactBox()">&times;</span>
+        <h3 style="color: #630a21;">Chat with Sweet Bakery</h3>
+        <p>How can we help you today?</p>
+        <textarea id="userMessage" placeholder="Write your message here..." rows="4" class="form-control mb-3"></textarea>
+        <button class="btn btn-maroon w-100" onclick="sendToWhatsApp()">Send via WhatsApp <i class="fab fa-whatsapp"></i></button>
+    </div>
+</div>
+</section>
+
+    <div id="orderModal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 9999;">
+        <div style="background: white; width: 90%; max-width: 400px; margin: 10% auto; padding: 20px; border-radius: 10px; position: relative;">
+            <span onclick="closeOrderModal()" style="position: absolute; right: 15px; top: 10px; font-size: 25px; cursor: pointer;">&times;</span>
+            <h3 style="color: #630a21; text-align: center;">Place Your Order</h3>
+            <hr>
+            <div class="mb-3">
+                <label>Product Name:</label>
+                <input type="text" id="modalProductName" class="form-control" readonly style="background: #eee;">
+            </div>
+            <button class="btn btn-maroon w-100" onclick="sendOrderToWhatsApp()" style="background-color: #630a21; color: white;">Order on WhatsApp</button>
+        </div>
+    </div>
+
+    <script src="js/project backert.js"></script> 
+</body>
+</html>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="project backert.js"></script>
+</body>
+</html>

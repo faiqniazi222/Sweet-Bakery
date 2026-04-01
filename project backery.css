@@ -1,0 +1,286 @@
+   /* GLOBAL & TOP BAR (Scrolling Text) */
+.top-bar {
+    background-color: rgb(148, 24, 24);
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 10px 0;
+}
+
+.scrolling-text {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 15s linear infinite;
+}
+
+@keyframes marquee {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+
+   /*NAVBAR (Pink )*/
+   
+.custom-navbar {
+    background-color: pink !important;
+    border-bottom: 2px solid rgb(105, 10, 10);
+}
+
+.brand-text {
+    color: rgb(139, 17, 17);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.nav-link {
+    color: rgb(144, 12, 12) !important;
+    font-weight: 600;
+}
+
+.btn-maroon {
+    background-color: rgb(115, 13, 13);
+    color: white;
+    border-radius: 25px;
+    border: none;
+}
+
+
+   /*  BANNER / CAROUSEL (Screen Size Fix) */
+   
+.banner-img {
+    width: 100%;
+    height: 500px; 
+    object-fit: cover; 
+}
+
+@media (max-width: 768px) {
+    .banner-img {
+        height: 250px; 
+    }
+}
+
+
+   /* PRODUCTS GRID (Sari Images Barabar Karne Ke Liye) */
+  
+.product-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    height: 100%; 
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    height: 200px; 
+    width: 100%;
+    object-fit: contain; 
+    padding: 15px;
+    background: whitesmoke;
+}
+
+.card-title {
+    font-size: 1.1rem;
+    color: rgb(120, 13, 13);
+    font-weight: bold;
+}
+
+.card-text {
+    color: rgb(202, 26, 26);
+    font-weight: bold;
+}
+
+
+   /* SPECIAL PRODUCT (Bottom Section) */
+ 
+.product-page-wrapper {
+    background-color: white;
+}
+
+/* Is section ki images ka size */
+#productCarousel .carousel-inner img {
+    height: 350px;
+    object-fit: contain;
+}
+
+.quantity-control-wrapper .quantity-input {
+    width: 60px !important;
+    text-align: center;
+    border: none;
+    font-weight: bold;
+    background: transparent;
+}
+
+.btn-outline-maroon {
+    border: 1px solid rgb(96, 9, 9);
+    color: #630a21;
+}
+
+.btn-outline-maroon:hover {
+    background-color: rgb(102, 10, 10);
+    color: white;
+}
+
+/* FOOTER */
+
+
+   /* HIGH-LEVEL FOOTER STYLES */
+
+.bakery-footer {
+    background-color: rgb(100, 11, 11); /* Maroon Theme */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border-top: 4px solid pink;
+}
+
+.footer-logo-text {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: pink;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footer-about {
+    font-size: 0.9rem;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-heading {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: pink;
+    position: relative;
+}
+
+.footer-heading::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 40px;
+    height: 2px;
+    background-color: pink;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 0.95rem;
+}
+
+.footer-links a:hover {
+    color: pink;
+    padding-left: 8px;
+}
+
+.social-link {
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 192, 203, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: pink;
+    text-decoration: none;
+    transition: 0.4s;
+    border: 1px solid rgba(255, 192, 203, 0.3);
+}
+
+.social-link:hover {
+    background: pink;
+    color: #630a21;
+    transform: translateY(-5px);
+}
+
+.icon-box {
+    color: pink;
+    font-size: 1.1rem;
+}
+
+.footer-bottom {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.copyright-text {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-policy {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.footer-policy:hover {
+    color: pink;
+}
+
+/* Responsive Fix */
+@media (max-width: 768px) {
+    .footer-heading {
+        margin-top: 20px;
+    }
+}
+
+
+/* CONTACT INFO */
+
+
+/* Contact Modal Styling */
+.contact-modal {
+    display: none; 
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5); 
+}
+
+.contact-modal-content {
+    background-color: rgb(255, 255, 255);
+    margin: 15% auto;
+    padding: 30px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 400px;
+    position: relative;
+    text-align: center;
+    border: 3px solid pink;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.close-btn {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 28px;
+    cursor: pointer;
+    color: #630a21;
+}
+
+#userMessage {
+    border: 1px solid hsl(0, 0%, 87%);
+    border-radius: 8px;
+    padding: 10px;
+    resize: none;
+}
+
+
+
+/* FOAM */
